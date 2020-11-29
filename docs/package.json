@@ -1,0 +1,19 @@
+{
+  "name": "production-grade-vue-docs",
+  "version": "0.0.1",
+  "description": "Documentation for Production-Grade Vue with Frontend Masters",
+  "main": "index.js",
+  "authors": {
+    "name": "Ben Hong",
+    "email": "ben@bencodezen.io"
+  },
+  "repository": "https://github.com/bencodezen/production-grade-vue/production-grade-vue-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
