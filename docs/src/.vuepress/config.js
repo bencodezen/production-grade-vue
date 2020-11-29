@@ -50,7 +50,19 @@ module.exports = {
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
-    sidebar: ['/guide/']
+    sidebar: [
+      '/guide/',
+      '/guide/languages',
+      '/guide/vue-cli',
+      '/guide/components',
+      '/guide/reusability-and-composition',
+      '/guide/state-management',
+      '/guide/routing',
+      '/guide/testing',
+      '/guide/easy-to-follow-best-practices',
+      '/guide/core-principles',
+      '/guide/final-thoughts'
+    ]
   },
 
   /**
