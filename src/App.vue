@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <DynamicHeading level="1" />
+  <DynamicHeading :level="1" />
   <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
