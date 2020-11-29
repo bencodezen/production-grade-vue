@@ -50,15 +50,7 @@ module.exports = {
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: ['', 'using-vue']
-        }
-      ]
-    }
+    sidebar: ['/guide/']
   },
 
   /**
