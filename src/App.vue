@@ -18,6 +18,7 @@ export default {
 </script>
 
 <style>
+/* Challenge: Refactor these styles into a CSS class and combine it with CSS modules */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

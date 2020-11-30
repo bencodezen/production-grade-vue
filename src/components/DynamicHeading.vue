@@ -1,4 +1,5 @@
 <template>
+  <!-- Challenge: Rewrite the following HTML using a render function -->
   <h1 v-if="level === 1">
     Hello Frontend Masters!
   </h1>
