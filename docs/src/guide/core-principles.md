@@ -1,5 +1,5 @@
 ## Core Principles
 
-- Define the priority
+- Impact over intent
 - Context is everything
 - All code is compromise
