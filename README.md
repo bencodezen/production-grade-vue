@@ -2,6 +2,11 @@
 
 Resources for Frontend Masters Workshop: Production-Grade Vue
 
+## Challenges
+
+- 01: Render Function + CSS Modules
+  - [Solution Branch](https://github.com/bencodezen/production-grade-vue/tree/01-challenge-solution)
+
 ## Project setup
 
 ```
