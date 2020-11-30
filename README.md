@@ -16,30 +16,12 @@ Resources for Frontend Masters Workshop: Production-Grade Vue
   - [Challenge Description](https://production-grade-vue.bencodezen.io/guide/reusability-and-composition.html#challenge-02)
   - [Solution Branch](https://github.com/bencodezen/production-grade-vue/tree/02-challenge-counter-solution)
 
-## Project setup
+## Setting Up Local Environment
 
-```
+```bash
+# Install dependencies
 yarn install
-```
 
-### Compiles and hot-reloads for development
-
-```
+# Start local dev server
 yarn serve
 ```
-
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
