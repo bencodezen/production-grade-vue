@@ -1,5 +1,39 @@
 ## Best Practices
 
 - Why best practices are important?
+  - What do we all want at the end of the day?
+    - Faster development
+    - Fewer bugs
+    - More opportunities for learning
+  - Instead of best practices, think of them as chosen conventions - instead.
 - What makes a convention "good"?
+  - There are two main factors that contribute to whether a convention is good or not:
+    - They enable developers to write great code with a low barrier of entry
+    - They are easy to refactor and/or abandon
 - How to implement conventions
+  - There are three main stages to implementing chosen conventions:
+    - Selection
+      - Define the problem
+      - Things are rarely objective and absolute
+      - Avoid bike-shedding
+      - Time-constrained voting
+      - Disagree and commit
+      - 3 month discussion freezes
+    - Implementation
+      - Automate everything
+        - Linters (i.e., eslint, stylelint, markdownlint)
+        - Formatters (i.e., prettier)
+        - Image Optimization (i.e., image-min)
+        - Generators (i.e., hygen/plop)
+        - Code Snippets (i..e, VS Code)
+    - Maintenance
+      - Build emotional safety and awareness
+        - Don't blame individuals
+        - Find systematic solutions
+        - If you have power, protect your devs
+      - The Jidoka principle
+        - Discover an abnormality
+        - Stop the process
+        - Fix the immediate process
+        - Investigate and solve the root cause
+        - The Andon Cord
