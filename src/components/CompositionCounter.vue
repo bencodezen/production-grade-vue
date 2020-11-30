@@ -6,16 +6,22 @@
  *   - Increment the count
  *   - Change the amount that the count can be incremented by
  */
+import { reactive, toRefs } from 'vue'
+
 export default {
-  data() {
-    return {
+  setup() {
+    const state = reactive({
       currentCount: 0,
       changeAmount: 1
+    })
+
+    const incrementCount = () => {
+      state.currentCount += state.changeAmount
     }
-  },
-  methods: {
-    incrementCount() {
-      this.currentCount += this.changeAmount
+
+    return {
+      ...toRefs(state),
+      incrementCount
     }
   }
 }
