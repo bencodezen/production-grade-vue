@@ -40,7 +40,7 @@ updateUser (userList, index, value, isOnline) {
 
 - Data Driven Refactoring
 - Signs you need more components
-  -When your components are hard to understand
+  - When your components are hard to understand
   - You feel a fragment of a component could use its own state
   - Hard to describe what what the component is actually responsible for
 - How to find reusable components
