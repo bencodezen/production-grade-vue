@@ -71,7 +71,7 @@ This is another valid alternative for generating HTML when you need to do it pro
 <script>
 export default {
   render(createElement) {
-    return createElement('h1', 'Hello Frontend Masters!’)
+    return createElement('h1', 'Hello Frontend Masters!')
   }
 }
 </script>
@@ -84,8 +84,8 @@ export default {
 import { h } from 'vue'
 
 export default {
-  render(createElement) {
-    return createElement('h1', 'Hello Frontend Masters!’)
+  render() {
+    return h('h1', 'Hello Frontend Masters!')
   }
 }
 </script>
@@ -131,9 +131,7 @@ Utilizes a data attribute in order to "scope" the styles to the HTML generated, 
 ```vue
 <template>
   <!-- What could be rendered -->
-  <p class="red" data-v57s8>
-    This should be red!
-  </p>
+  <p class="red" data-v57s8>This should be red!</p>
 </template>
 
 <style>
@@ -152,9 +150,7 @@ What I recommend in terms of managing styles inside of components. It generates 
 
 ```vue
 <template>
-  <p class="MyRedText_red_3fj4x">
-    This should be red!
-  </p>
+  <p class="MyRedText_red_3fj4x">This should be red!</p>
 </template>
 
 <style>
