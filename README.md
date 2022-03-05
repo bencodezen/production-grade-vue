@@ -1,6 +1,6 @@
 # Production-Grade Vue
 
-Resources for Frontend Masters Workshop: Production-Grade Vue
+The official repo for [Frontend Masters Workshop: Production-Grade Vue](https://frontendmasters.com/courses/production-vue/)!
 
 ## Resources
 
